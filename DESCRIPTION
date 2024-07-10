@@ -1,0 +1,17 @@
+Package: LMPdata
+Type: Package
+Title: Easy import of the EU Labour Market Policy data
+Version: 0.1.0
+Author: Aleksander Rutkowski
+Maintainer: Aleksander Rutkowski <alek.rutkowski@gmail.com>
+Description: Easy import of the EU Labour Market Policy data
+  and metadata (codelists). The data can be accessed also via
+  <https://webgate.ec.europa.eu/empl/redisstat/databrowser/explore/all/lmp?lang=en&display=card&sort=category>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Imports:
+  magrittr,
+  data.table
+URL: https://github.com/alekrutkowski/LMPdata
