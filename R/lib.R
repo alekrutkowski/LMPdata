@@ -81,9 +81,11 @@ verifiedLmp_dataset_code <- function(lmp_dataset_code) {
 #' the columns for each dimension, \code{geo} i.e. country, \code{time_period}
 #' i.e. year, and others.
 #' @examples
+#' \dontrun{
 #' importData('lmp_expsumm',
 #'            list(geo=c('AT','BE','CZ'), unit='MIO_EUR',
 #'                 lmp_type='TOT1_9', exptype=c('XIND','XEMP')))
+#' }
 #' @export
 importData <- function(lmp_dataset_code, filters=list()) {
   stopifnot(is.character(lmp_dataset_code),
@@ -128,8 +130,10 @@ importData <- function(lmp_dataset_code, filters=list()) {
 #' If e.g. \code{dimension_code="geo"}, the first column is named \code{geo} and
 #' the second column is named \code{geo__label}.
 #' @examples
+#' \dontrun{
 #' importLabels("geo")
-#' importLabels("lmp_type")
+#' importLabels("exptype")
+#' }
 #' @export
 importLabels <- function(dimension_code) {
   stopifnot(is.character(dimension_code),

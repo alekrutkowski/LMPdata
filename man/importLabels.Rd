@@ -30,6 +30,8 @@ UNIT \tab Unit of measure \cr
 }
 }
 \examples{
+\dontrun{
 importLabels("geo")
-importLabels("lmp_type")
+importLabels("exptype")
+}
 }

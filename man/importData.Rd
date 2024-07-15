@@ -33,7 +33,9 @@ LMP_RJRU \tab Persons registered with Public Employment Services \cr
 }
 }
 \examples{
+\dontrun{
 importData('lmp_expsumm',
            list(geo=c('AT','BE','CZ'), unit='MIO_EUR',
                 lmp_type='TOT1_9', exptype=c('XIND','XEMP')))
+}
 }
