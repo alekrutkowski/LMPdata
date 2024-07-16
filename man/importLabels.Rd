@@ -30,7 +30,7 @@ UNIT \tab Unit of measure \cr
 }
 }
 \examples{
-\dontrun{
+\donttest{
 importLabels("geo")
 importLabels("exptype")
 }
