@@ -1,7 +1,7 @@
 Package: LMPdata
 Type: Package
 Title: Easy Import of the EU Labour Market Policy Data
-Version: 0.1.0
+Version: 0.2.0
 Author: Aleksander Rutkowski [aut, cre]
 Maintainer: Aleksander Rutkowski <alek.rutkowski@gmail.com>
 Authors@R: c(person("Aleksander", "Rutkowski", role = c("aut", "cre"),
